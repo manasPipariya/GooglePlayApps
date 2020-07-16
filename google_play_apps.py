@@ -169,21 +169,8 @@ def app_details(root_dir, apps_url_lst, search_key):
 
 def books_details(root_dir, search_key):
     try:
-        # search_url = "https://play.google.com/store/search?q=" + str(search_key)
-        # req = requests.get(search_url)
-        #
-        # page_soup = soup(req.content, "html.parser")
-        #
         x = "https://play.google.com"
-        # main_url = ''
-        # app_container = page_soup.findAll("div", {"class": "xwY9Zc"})
-        # for app in app_container:
-        #     try:
-        #         app_txt = app.find("a").text.strip().lower()
-        #         if app_txt == "apps":
-        #             main_url = x + str(app.find("a")["href"])
-        #     except:
-        #         pass
+        
 
         main_url = "https://play.google.com/store/search?q="+search_key+"&c=apps"
 
